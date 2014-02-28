@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'shamatov'
-set :repo_url, 'git@github.com:IvanShamatov/shamatov.git'
+set :application, 'hrlabs'
+set :repo_url, 'git@github.com:IvanShamatov/hrlabs.ru.git'
 
 # set :shared_children, shared_children + %w{tmp/uploads}
 
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/home/deployer/shamatov'
+set :deploy_to, '/home/deployer/hrlabs.ru'
 
 # Default value for :scm is :git
 # set :scm, :git
